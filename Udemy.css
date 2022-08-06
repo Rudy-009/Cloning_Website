@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    font: 1em arial;
+}
+
+header{
+    font-size:30px;
+    margin: 10px 0px 0px;
+    padding: 0px 10px 10px;
+    border-bottom: 1px solid #d0d0d0;
+}
+
+.home_link {
+    /*1. delete purple effect & underline */
+    text-decoration: none;
+    color : black;
+    font: 30px arial;
+    font-weight: 800;
+    /*2. Or use sgv file format & insert image file in <a> */
+
+
+}
+
+.home_link::first-letter{
+    color : #9b5de5;
+}
+
+div > a {
+    text-decoration : none;
+    color: black;
+}
+
+div > a:hover{
+    color : #9b5de5;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.categories, .udemy_bussiness, .teach_on_udemy, .my_learning, .heart_icon, .cart_icon, .bell_icon, .user_icon {
+    /* content */
+    width :max-content;
+    height: 1em;
+    display: inline-block;
+    font-size: 0.5em;
+    text-align:center;
+    /* padding */
+    padding: 0.5em;
+    /* border */
+    border: 0px solid gray;
+    /* margin */
+    margin: 0.5em auto;
+}
+
+.search{
+    /* content */
+    width:40em;     height: 2em;
+    background-color: #f8f9fa;
+    display: inline-block;
+    font-size: 0.5em;   text-align: left;
+    /* padding */
+    padding: 5px;   padding-left: 20px;
+    /* border */
+    border: 1px solid gray; border-radius: 2.5em;
+    /* margin */
+    margin: 0.1em;
+}
+
+nav {
+    font-size: 1em;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #d0d0d0;
+    margin-bottom: 0px;
+    /* gradation */
+    box-shadow: 0px 5px 5px #d0d0d0;
+    /*above the picture*/
+    position: relative;
+}
+
+ul {
+    width: 90%;
+    align-self: center;
+}
+
+ul,li {
+    display: flex;
+    margin: 5px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav_link {
+    text-decoration: none;
+    color : black;
+}
+
+.nav_link:hover{
+    color : #9b5de5;
+}
+
+.big_img{
+    margin: auto 3%;
+}
+
+.lets_start{
+    position: relative;
+    top : -350px;
+    left: 200px;
+    width : 400px;
+    background-color: beige;
+    padding: 10px;
+    /* gradation */
+    box-shadow: 0px 5px 5px #d0d0d0;
+}
+
+.lets_start > .get{
+    font-size: 2em;
+    margin: 10px 5px 0px;
+}
