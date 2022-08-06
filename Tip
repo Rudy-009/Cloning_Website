@@ -1,0 +1,12 @@
+command + / & command + k + c : /**/
+
+option + shift + f //automatically array <tab>
+
+open command pallet Ctrl+Shift+P
+
+(alt+shift+↓ or option+shift+↓) : copy line down
+
+option + click : multiple select
+
+lorem * 10 + tab : dummy text
+

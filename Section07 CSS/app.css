@@ -1,0 +1,35 @@
+
+body {
+    background-color: #eae2b7;
+}
+
+button{
+    background-color: #fcbf49;
+}
+
+#signup {
+    color : white;
+    background-color: #003049;
+}
+
+span {
+    color : #457b9d;
+}
+
+.tag {
+    background-color: #c1121f;
+    font-size: 20px;
+}
+
+input + button {
+    background-color: pink;
+}
+
+h2 + button {
+    color: #8eecf5;
+    font-size: 20px;
+}
+
+a:hover{
+    color : orange;
+}

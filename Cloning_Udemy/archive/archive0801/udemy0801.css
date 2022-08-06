@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+}
+
+header{
+    font-size:30px;
+    margin: 10px;
+}
+
+.home_link {
+    height: 1em;
+    font-size: 1em;
+    font-style: bold;
+    display: inline;
+}
+
+.home_link::first-letter{
+    color : #9b5de5;
+}
+
+div > a {
+    text-decoration : none;
+    color: black;
+}
+
+div > a:hover{
+    color : #9b5de5;
+}
+
+.categories, .udemy_bussiness, .teach_on_udemy, .my_learning, .heart_icon, .cart_icon, .bell_icon, .user_icon {
+    /* content */
+    width :max-content;
+    height: 1em;
+    display: inline-block;
+    font-size: 0.5em;
+    text-align:center;
+    /* padding */
+    padding: 0.5em;
+    /* border */
+    border: 0px solid gray;
+    /* margin */
+    margin: 0.5em;
+}
+
+.search{
+    /* content */
+    width:35em;
+    height: 2.5em;
+    background-color: #f8f9fa;
+    display: inline-block;
+    font-size: 0.5em;
+    text-align: left;
+    /* padding */
+    padding: 5px;
+    padding-left: 20px;
+    /* border */
+    border: 1px solid gray;
+    border-radius: 2.5em;
+    /* margin */
+    margin: 0.1em;
+}

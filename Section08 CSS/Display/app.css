@@ -1,0 +1,16 @@
+body{
+    color: white;
+    background-color: black;
+}
+
+h1 {
+    background-color: purple;
+    display: inline;
+}
+
+span{
+    /* background-color : dodgerblue;  */
+    border: 1px solid white;
+    padding: 100px;
+    /* margin: 100px; */
+}
