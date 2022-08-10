@@ -1,0 +1,155 @@
+
+
+/* header */
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.header_section {
+    margin : 20px 0px 20px 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+        /* title */
+.home_logo {
+    font-size: 1.5em;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 900;
+}
+
+        /* categories */
+.categories > a{
+    margin : 0px 10px 0px;
+    font-size: 1em;
+    font-family: 'Open Sans', sans-serif;
+}
+        /* icons */
+.icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.icons > div {
+    margin : 0px 5px 0px;
+}
+
+.search_icon, .shopping_bag_icon {
+    width : 20px;
+    height : 20px;
+}
+
+/* navigation bar */
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    /* navigation bar elements */
+    .box{
+        width : 100px;
+        height : 150px;
+        margin: 10px;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 13px;
+    }
+
+    .box_text {
+        text-align: center;
+    }
+
+    .box_circle {
+        width : 100%; height : 66%;
+        border: 0px solid black;
+        /* border-radius: 50%; */
+    }
+
+    .nav_box_img {
+        width : 100%; height : 100%;
+        border-radius: 50%;
+        border: 1px solid white;
+    }
+
+    .nav_box_img:hover {
+        border: 1px solid black;
+    }
+
+/* fixed bar */
+.fixed_bar{
+    /* design */
+    background-color: white;
+    height : 60px;
+    /* about sticky */
+    position: sticky;
+    padding-top: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    /* align */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    /* p */
+    .fixed_bar > p {
+        margin : 0px 20px 0px;
+    }
+
+    /* array */ /* button */
+    .bar_quick_view, .bar_filter {
+        background-color: white;
+        border: none;
+        cursor: pointer;
+    }
+    /* img in button */
+    .btn_container img {
+        display: inline-flex;
+        justify-content: center;
+        height : 13px;
+    }
+
+    .btn_container > span {
+        font-size: 15px;
+    }
+
+/* section */
+    .sunlgasses_warehouse {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .sunglasses_box{
+        width: 19%;
+        margin : 0.5%;
+    }
+
+    .sunglasses_box_img {
+        width : 100%; height : auto;
+        border: 0px;
+        margin: 0px;
+    }
+
+    .sunglasses_box_info {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .box_info_link {
+        font-size: 15px;
+    }
+
+    .button_heart {
+        height : 15px;
+    }
+
+    button {
+        background-color: white;
+        border: none;
+        cursor: pointer;
+    }

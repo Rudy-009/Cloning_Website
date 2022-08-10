@@ -6,12 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gentle Monster</title>
     <link rel="stylesheet" href="gentle_monster.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Open+Sans:wght@500&family=Roboto:wght@100;400&display=swap" rel="stylesheet">
 
 </head>
 <body>
     <header class = "header">
-        <section>
-            <div class = "home_logo"><a href="#home">GENTLE MONSTER</a></div>
+        <section class = "header_section">
+            <div><a class = "home_logo" href="#home">GENTLE MONSTER</a></div>
             <div class = "categories">
                 <a href="">Sunglasses</a>
                 <a href="">Glasses</a>
@@ -22,11 +25,248 @@
                 <a href="">Services</a>
             </div>
             <div class = "icons">
-                
+                <div><a href=""> <img class = "search_icon" src="img/search-icon.png" alt=""></a></div>
+                <div><p>Shop in</p></div>
+                <div><select name="countries" id="countries">
+                    <option value="KR">KR</option>
+                    <option value="US">US</option>
+                    <option value="JP">JP</option>
+                    <option value="UK">UK</option>
+                    <option value="CN">CN</option>
+                </select>
+                </div>
+                <div><a href="">Login</a></div>
+                <div><a href=""> <img class = "shopping_bag_icon"src="img/shopping-bag-icon.png" alt=""></a></div>
             </div>
         </section>
     </header>
 
-    
+    <nav class = "nav">
+        <div class="box"> <a href=""> <div class = "box_circle"> <img class = "nav_box_img" src="img/nav/sunglasses_1.jpg" alt=""></a><a class= "box_text" href="">All</a> </div> </div>
+        <div class="box"> <a href=""> <div class = "box_circle"> <img class = "nav_box_img" src="img/nav/sunglasses_2.jpg" alt=""></a><a class= "box_text" href="">2022 collection</a> </div> </div>
+        <div class="box"> <a href=""> <div class = "box_circle"> <img class = "nav_box_img" src="img/nav/sunglasses_3.jpg" alt=""></a><a class= "box_text" href="">Tint Lens</a></div> </div>
+        <div class="box"> <a href=""> <div class = "box_circle"> <img class = "nav_box_img" src="img/nav/sunglasses_4.jpg" alt=""></a><a class= "box_text" href="">Best Seller</a> </div> </div>
+        <div class="box"> <a href=""> <div class = "box_circle"> <img class = "nav_box_img" src="img/nav/sunglasses_5.jpg" alt=""></a><a class= "box_text" href="">Gift</a> </div> </div>
+        <div class="box"> <a href=""> <div class = "box_circle"> <img class = "nav_box_img" src="img/nav/sunglasses_6.jpg" alt=""></a><a class= "box_text" href="">Classic</a> </div> </div>
+        <div class="box"> <a href=""> <div class = "box_circle"> <img class = "nav_box_img" src="img/nav/sunglasses_7.jpg" alt=""></a><a class= "box_text" href="">Square Frame</a> </div> </div>
+        <div class="box"> <a href=""> <div class = "box_circle"> <img class = "nav_box_img" src="img/nav/sunglasses_8.jpg" alt=""></a><a class= "box_text" href="">Cat Frame</a> </div> </div>   
+    </nav>
+
+    <div class = "fixed_bar">
+        <p class = "">Sunglasses / 2022 Collection</p>
+        <div class = "bar_buttons">
+            <button class="bar_quick_view">
+                <div class = "btn_container">
+                    <!-- <img src="img/quick_view_icon.png" alt=""> -->
+                    <span>Quick View</span>
+                </div>
+            </button>
+            <button class="bar_filter">
+                <div class = "btn_container">
+                    <img src="img/filter_icon.png" alt="">
+                    <span>Fiter</span>
+                </div>
+            </button>
+        </div>
+    </div>
+
+    <section class="sunlgasses_warehouse">
+        <div class="sunglasses_box"> 
+            <a class = "sunglasses_box_link" href=""> 
+                <img class = "sunglasses_box_img"src="img/section/sunglasses_1.jpg" alt="">
+            </a>
+            <div class="sunglasses_box_info">
+                <a class = "box_info_link" href="">VVD 4</a>
+
+                <button>
+                    <img class = "button_heart" src="img/section/heart.png" alt="">
+                </button>
+            </div>
+        </div>
+        <div class="sunglasses_box">
+            <a class = "sunglasses_box_link" href="">
+                <img class = "sunglasses_box_img"src="img/section/sunglasses_2.jpg" alt=""> 
+            </a>
+            <div class="sunglasses_box_info">
+                <a class = "box_info_link"  href="">Dreamer 17 01</a>
+
+                <button>
+                    <img class = "button_heart" src="img/section/heart.png" alt="">
+                </button>
+            </div>
+        </div>
+
+        <div class="sunglasses_box">
+            <a class = "sunglasses_box_link" href="">
+                <img class = "sunglasses_box_img"src="img/section/sunglasses_3.jpg" alt=""> 
+            </a>
+            <div class="sunglasses_box_info">
+                <a class = "box_info_link"  href="">Hksl 7</a>
+
+                <button>
+                    <img class = "button_heart" src="img/section/heart.png" alt="">
+                </button>
+            </div>
+        </div>
+
+        <div class="sunglasses_box">
+            <a class = "sunglasses_box_link" href="">
+                <img class = "sunglasses_box_img"src="img/section/sunglasses_4.jpg" alt=""> 
+            </a>
+            <div class="sunglasses_box_info">
+                <a class = "box_info_link" href="">JJ NYXL44</a>
+
+                <button>
+                    <img class = "button_heart" src="img/section/heart.png" alt="">
+                </button>
+            </div>
+        </div>
+
+        <div class="sunglasses_box">
+            <a class = "sunglasses_box_link" href="">
+                <img class = "sunglasses_box_img"src="img/section/sunglasses_5.jpg" alt=""> 
+            </a>
+            <div class="sunglasses_box_info">
+                <a class = "box_info_link" href="">Spc GLD47</a>
+
+                <button>
+                    <img class = "button_heart" src="img/section/heart.png" alt="">
+                </button>
+            </div>
+        </div>
+
+        <div class="sunglasses_box">
+            <a class = "sunglasses_box_link" href="">
+                <img class = "sunglasses_box_img"src="img/section/sunglasses_6.jpg" alt=""> 
+            </a>
+            <div class="sunglasses_box_info">
+                <a class = "box_info_link" href="">Lo Cell GC3</a>
+
+                <button>
+                    <img class = "button_heart" src="img/section/heart.png" alt="">
+                </button>
+            </div>
+        </div>
+
+        <div class="sunglasses_box">
+            <a class = "sunglasses_box_link" href="">
+                <img class = "sunglasses_box_img"src="img/section/sunglasses_7.jpg" alt=""> 
+            </a>
+            <div class="sunglasses_box_info">
+                <a class = "box_info_link" href="">Lo Cell GC4</a>
+
+                <button>
+                    <img class = "button_heart" src="img/section/heart.png" alt="">
+                </button>
+            </div>
+        </div>
+
+        <div class="sunglasses_box">
+            <a class = "sunglasses_box_link" href="">
+                <img class = "sunglasses_box_img"src="img/section/sunglasses_8.jpg" alt=""> 
+            </a>
+            <div class="sunglasses_box_info">
+                <a class = "box_info_link" href="">Frida BRC1</a>
+
+                <button>
+                    <img class = "button_heart" src="img/section/heart.png" alt="">
+                </button>
+            </div>
+        </div>
+
+        <div class="sunglasses_box">
+            <a class = "sunglasses_box_link" href="">
+                <img class = "sunglasses_box_img"src="img/section/sunglasses_9.jpg" alt=""> 
+            </a>
+            <div class="sunglasses_box_info">
+                <a class = "box_info_link" href="">Probe SF1</a>
+
+                <button>
+                    <img class = "button_heart" src="img/section/heart.png" alt="">
+                </button>
+            </div>
+        </div>
+
+        <div class="sunglasses_box">
+            <a class = "sunglasses_box_link" href="">
+                <img class = "sunglasses_box_img"src="img/section/sunglasses_10.jpg" alt="">
+            </a>
+            <div class="sunglasses_box_info">
+                <a class = "box_info_link" href="">Bi Bi PC3</a>
+
+                <button>
+                    <img class = "button_heart" src="img/section/heart.png" alt="">
+                </button>
+            </div>
+         </div>
+
+        <div class="sunglasses_box">
+            <a class = "sunglasses_box_link" href="">
+                <img class = "sunglasses_box_img"src="img/section/sunglasses_11.jpg" alt="">
+            </a>
+            <div class="sunglasses_box_info">
+                <a class = "box_info_link" href="">Max VP23</a>
+
+                <button>
+                    <img class = "button_heart" src="img/section/heart.png" alt="">
+                </button>
+            </div>
+         </div>
+
+        <div class="sunglasses_box">
+            <a class = "sunglasses_box_link" href="">
+                <img class = "sunglasses_box_img"src="img/section/sunglasses_12.jpg" alt="">
+            </a>
+            <div class="sunglasses_box_info">
+                <a class = "box_info_link" href="">Juefo RE3</a>
+
+                <button>
+                    <img class = "button_heart" src="img/section/heart.png" alt="">
+                </button>
+            </div>
+         </div>
+
+        <div class="sunglasses_box">
+            <a class = "sunglasses_box_link" href="">
+                <img class = "sunglasses_box_img"src="img/section/sunglasses_13.jpg" alt="">
+            </a>
+            <div class="sunglasses_box_info">
+                <a class = "box_info_link" href="">Lando 91</a>
+
+                <button>
+                    <img class = "button_heart" src="img/section/heart.png" alt="">
+                </button>
+            </div>
+         </div>
+
+        <div class="sunglasses_box">
+            <a class = "sunglasses_box_link" href="">
+                <img class = "sunglasses_box_img"src="img/section/sunglasses_14.jpg" alt="">
+            </a>
+            <div class="sunglasses_box_info">
+                <a class = "box_info_link" href="">Jackie 01</a>
+
+                <button>
+                    <img class = "button_heart" src="img/section/heart.png" alt="">
+                </button>
+            </div>
+         </div>
+
+        <div class="sunglasses_box">
+            <a class = "sunglasses_box_link" href="">
+                <img class = "sunglasses_box_img"src="img/section/sunglasses_15.jpg" alt="">
+            </a>
+            <div class="sunglasses_box_info">
+                <a class = "box_info_link" href="">Le Bella FG01</a>
+
+                <button>
+                    <img class = "button_heart" src="img/section/heart.png" alt="">
+                </button>
+            </div>
+         </div>
+
+    </section>
+
+
 </body>
 </html>
